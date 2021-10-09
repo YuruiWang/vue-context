@@ -298,11 +298,11 @@ export default {
                 top = largestHeight;
             }
 
-            if (left > largestWidth) {
+            /*if (left > largestWidth) {
                 left = largestWidth;
-            }
+            }*/
 
-            return [top, left];
+            return [top, left+1];
         },
 
         removeScrollEventListener() {
