@@ -302,7 +302,7 @@ export default {
                 left = largestWidth;
             }*/
 
-            return [top, left+1];
+            return [top, left+5];
         },
 
         removeScrollEventListener() {
