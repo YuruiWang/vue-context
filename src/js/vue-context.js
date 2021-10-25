@@ -13,6 +13,7 @@ import {
 import { normalizeSlot } from './normalize-slot';
 
 export default {
+    name: "vue-context",
     directives: {
         onClickaway
     },
